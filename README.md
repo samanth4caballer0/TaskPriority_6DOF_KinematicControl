@@ -29,4 +29,4 @@ To run the simulation using the provided commands, follow these steps:
 
 ## Simulation demo
 
-![Task-Priority Kinematic Control (pick-place operation) Simulation Demo](outputs/highway.gif)
+![Task-Priority Kinematic Control (pick-place operation) Simulation Demo](hoi.gif)
