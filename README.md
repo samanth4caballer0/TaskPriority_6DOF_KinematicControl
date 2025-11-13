@@ -1,5 +1,5 @@
 # HOI_taskPriority - ROS Package
-(By: Raul Musito, Carlos Pazos, Samantha Caballero)
+(By: Samantha Caballero, Raul Musito, Carlos Pazos)
 
 
 ## Running the Simulation
@@ -26,3 +26,7 @@ To run the simulation using the provided commands, follow these steps:
    ```bash
    rosrun hoi_taskpriority behaviour_tree_node.py
    ```
+
+## Simulation demo
+
+![Task-Priority Kinematic Control (pick-place operation) Simulation Demo](outputs/highway.gif)
