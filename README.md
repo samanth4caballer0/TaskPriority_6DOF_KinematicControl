@@ -1,6 +1,17 @@
 # HOI_taskPriority - ROS Package
-(By: Samantha Caballero, Raul Musito, Carlos Pazos)
+(By: Samantha Caballero, Carlos Pazos, Raul Musito)
 
+
+## Demo
+
+Task-priority controller and behaviour tree run for both the Stonefish simulation and on the TurtleBot with 4DoF on-board manipulator.
+
+| Stonefish simulation | Real TurtleBot |
+| :---: | :---: |
+| <img src="media/simulation_demo.gif" width="100%"> | <img src="media/real_robot_demo.gif" width="100%"> |
+| Base and arm coordinating to reach the detected ArUco-tagged object | Same behaviour tree operation reaching the ArUco box on the physical robot |
+
+Full-resolution clips: [simulation](media/simulation_demo.mp4) · [real robot](media/real_robot_demo.mp4)
 
 ## Running the Simulation
 
@@ -26,7 +37,3 @@ To run the simulation using the provided commands, follow these steps:
    ```bash
    rosrun hoi_taskpriority behaviour_tree_node.py
    ```
-
-## Simulation demo
-
-![Task-Priority Kinematic Control (pick-place operation) Simulation Demo](hoi.gif)
